@@ -1,0 +1,148 @@
+
+  p { color: white; font-family: arial black; }
+  h1{ margin-left:50px; color: green; font-family: Arial }
+  body{background-image:url("trivico.jpg"); background-attachment:fixed;background-repeat:no-repeat;background-position:50% 50%}
+  h2{ color: black; font-family: Arial }
+  h3{ color: red; font-family: Arial; font-size:18px }
+  #limpiar{clear:both;}
+  
+
+  #container{
+	  width: 1050px; /* ancho */
+	  margin: 0 auto; /* margen */
+	  background: #001;
+	  
+	}
+	
+	#header{
+		
+	  width: 980px; /* ancho */
+	  height: 200px;
+	  margin: 10px 10px 10px 10px; /* margen */
+	  border: 2px black;
+	}
+	/*
+	#nav{
+	  width: 980px;  ancho 
+	  height: 80px;
+	  margin: 10px 10px 10px 10px; 
+	  border: 2px solid green;
+	} 
+	*/
+	
+	#nav ul{
+	  margin-left: 0; /* RESET DE CAJA UL */
+	  padding: 0; /* RESET DE CAJA UL */
+	  list-style: none; /* quita la viñeta*/
+	  width: 83%;
+	  height: 60px;
+	  background: black;
+	  float: center;
+	  padding-top: 15px;
+	  display:block;
+	  border-radius: 5px; /*  BORDES REDONDOS*/
+	  box-shadow: 0 0 10px rgb(214, 11, 11)
+	  
+	}
+	
+	#nav li{		
+		float: left;
+		border-radius: 5px; /*  BORDES REDONDOS*/
+	}
+	
+	#nav li a{		
+		display: block;
+		padding: 0 25px;
+		border-right: 2px solid #fff;
+		text-decoration: none;
+		line-height: 40px;
+		color: white;
+		font-size:40px;
+		font-weight:bold;
+		color: white;
+		font-family: Cooper Black;
+		
+		border-radius: 5px; /*  BORDES REDONDOS*/
+	}
+	
+	#logo{
+		float: center;
+	}
+	
+	#header ul{
+		padding:0;
+		margin:0;
+		width:400px;
+		float:right;
+		display: block;
+		list-style:none;
+		padding-top:20px;
+		list-style: none; /* quita la viñeta*/
+		
+	}
+	#header ul li{
+		float:left;
+	}
+	
+	#section1{
+	  width: 1000px; /* ancho */
+	  height: 500px;
+	  margin: 10px 10px 10px 10px; /* margen */
+	  border: 2px solid green;
+	}
+	
+	#section2{
+	  width: 1000px; /* ancho */
+	  height: 600px;
+	  margin: 10px 10px 10px 10px; /* margen */
+	  border: 2px solid green;
+	}
+	
+	#section3{
+	  width: 600px; /* ancho */
+	  height: 100px;
+	  margin: 10px 10px 10px 10px; /* margen */
+	  border: 2px solid green;
+	  float: inline-end;
+	}
+	
+	#redes ul{
+		padding:0;
+		margin:0;
+		width:400px;
+		float:right;
+		display: block;
+		list-style:none;
+		padding-top:20px;
+		list-style: none; /* quita la viñeta*/
+				
+	}
+	
+	#redes ul li{
+		float:left;		
+	}
+	
+	#footer{
+	  width: 98%; /* ancho */
+	  height: 100px;
+	  margin: 8px 8px 10px 10px; /* margen */
+	}
+
+	#creador{
+		display: block;
+		padding: 0 25px;
+		border-right: 2px solid #fff;
+		text-decoration: none;
+		line-height: 40px;
+		color: white;
+		font-size:40px;
+		font-weight:bold;
+		color: white;
+		font-family: Cooper Black;
+		
+		border-radius: 5px; /*  BORDES REDONDOS*/
+	}
+	
+	
+	
+	
